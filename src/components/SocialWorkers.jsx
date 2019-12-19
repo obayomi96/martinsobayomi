@@ -24,21 +24,21 @@ const SocialWorker = () => {
       role: "Psychological Expert",
     },
     {
-      id: 2,
+      id: 3,
       name: "Richad Williams",
       imageUrl: "https://via.placeholder.com/150",
 
       role: "Psychological Expert",
     },
     {
-      id: 2,
+      id: 4,
       name: "Peter Haruna",
       imageUrl: "https://via.placeholder.com/150",
 
       role: "Psychological Expert",
     },
     {
-      id: 2,
+      id: 5,
       name: "Stella Dominic",
       imageUrl: "https://via.placeholder.com/150",
 
