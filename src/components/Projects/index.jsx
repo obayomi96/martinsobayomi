@@ -1,5 +1,5 @@
 import React from 'react';
-// import {workerObect} from '../workerObject';
+import './Projects.css';
 
 const SocialWorker = () => {
   const workerObect = [

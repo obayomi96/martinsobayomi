@@ -1,0 +1,58 @@
+header {
+  display: inline-block;
+  width: 100%;
+}
+
+/* Menu animation starts */
+
+#other-links {
+  color: grey;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+/* #other-links:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: grey;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+#other-links:hover:after { 
+  width: 100%; 
+  left: 0; 
+} */
+#other-links:hover {
+  color: white;
+}
+
+/* Menu animation ends */
+
+.logo {
+  font-size: 50px;
+  font-weight: 700px;
+  letter-spacing: 0.15em;
+  text-decoration: none;
+}
+  
+.other-links {
+  float: left;
+  font-size: large;
+}
+  
+.links {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  float: right;
+  display: inline-flex;
+  padding: 15px;
+}
