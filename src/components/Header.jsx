@@ -7,13 +7,14 @@ const Header = () => {
 		<header>
 			<div className="header-div">
 				<ul>
-					<li><Link className="active logo" to="">SUREP<span style={{color: "green"}}>SYCHE</span></Link></li>
-					<li><Link className="other-links" to="">About us</Link></li>
-					<li><Link className="other-links" to="/social-workers">Contact Specialists</Link></li>
+					<li><Link className="active logo" to="/"><b style={{color: "grey"}}>Martins</b> <span style={{color: "violet"}}>Obayomi</span></Link></li>
 				</ul>
 				<div className="auth">
-					<p><Link className="sign-in" to="">Sign in</Link></p>
-					<button>Get Started</button>
+				  <ul>
+						<li><Link className="other-links" to="/projects"> Projects</Link></li>
+						<li><Link className="other-links" to="/about"> About</Link></li>
+						<li><Link className="other-links" to="/contact"> Contact</Link></li>
+					</ul>
 				</div>
       </div>
     </header>
