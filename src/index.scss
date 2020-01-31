@@ -152,8 +152,10 @@ ul {
 
 .flex {
   display: flex;
+  align-items: center;
+
   // margin-top: 7%;
-  transform: translateY(50%);
+  // transform: translateY(50%);
 }
 
 .flextwo {
@@ -169,28 +171,28 @@ ul {
   color: #ddd;
   font-size: 1.2em;
   line-height: 1.5;
-}
+  width: 100%
+}  // align-items: center;
 small {
   font-size: 15px;
 }
 
 .column {
   display: flex;
-  flex-direction: row;
   padding: 10px;
   height: inherit;
   margin: auto;
-  // align-items: center;
+  max-width: 80%;;
+  align-items: center;
+  justify-content: space-between;
 }
 .image {
   float: right;
+  width: 100%
 }
 .img {
   float: right;
-  width: 50%;
   right: 0;
-  margin-bottom: 100px !important;
-
 }
 .shift {
   align-content: center;
