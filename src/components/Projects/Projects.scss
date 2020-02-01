@@ -1,0 +1,47 @@
+button {
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 150px;
+  height: 50px;
+  background-color: green;
+  color: #fff;
+} 
+button:hover {
+  background: darkgreen;
+  transition: 0.5ms;
+} 
+
+.cards {
+  height: inherit;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.workers-cards {
+  padding: 20px;
+  margin: 10px;
+  width: 100%;
+  position: relative;
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  background: #fff;
+}
+
+.worker-img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 25px;
+  margin-left: 20px;
+  align-content: center;
+  align-items: center;
+}
+
+.img-content {
+  margin-bottom: 10px;
+  border-spacing: border-box;
+  display: inline-flex;
+}

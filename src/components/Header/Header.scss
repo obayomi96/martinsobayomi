@@ -1,0 +1,41 @@
+header {
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+}
+
+#other-links {
+  color: grey;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+#other-links:hover {
+  color: white;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: 700px;
+  letter-spacing: 0.15em;
+  text-decoration: none;
+}
+  
+.other-links {
+  float: left;
+  font-size: large;
+  list-style-type: none;
+}
+  
+.links {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  float: right;
+  display: inline-flex;
+  padding: 15px;
+}

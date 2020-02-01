@@ -1,0 +1,30 @@
+.footer-ul {
+  margin: auto;
+  align-content: center;
+  text-transform: uppercase;
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.footer-link {
+  color: grey;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  padding: 15px 20px;
+  text-align: center;
+}
+.footer-link:hover {
+  color: #000;
+}
+
+footer {
+  display: flex;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ddd;
+}
