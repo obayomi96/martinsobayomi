@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Header.css';
+import './Header.scss';
 
 
 const Header = () => {
@@ -15,9 +15,11 @@ const Header = () => {
 								Projects
 							</Link>
 						</li>
-						<li className="other-links"><Link id="other-links" to="/about"> About</Link></li>
+						{/* <li className="other-links">
+							<Link id="other-links" to="/">About</Link>
+						</li> */}
 						<li className="other-links">
-							<Link id="other-links" to="/contact">Contact
+							<Link id="other-links" to="/">Contact
 							</Link>
 						</li>
 					</ul>

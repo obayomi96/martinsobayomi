@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from '../Header';
+import Footer from '../Footer';
 import imgSrc from '../../assets/images/myphoto.jpeg';
-import './LandingPage.css';
+import './LandingPage.scss';
 
 const LandingPage = () => {
 	return (
@@ -22,12 +23,12 @@ const LandingPage = () => {
 				<div className="skills-section">
 					<div className="skills left-skills">
 						<ul>
-							<li>React/Redux/Redux-saga</li>
+							<li>React / Redux / Redux-saga</li>
 							<li>Next</li>
-							<li>Vue/Vuex</li>
+							<li>Vue / Vuex</li>
 							<li>Nuxt</li>
 							<li>PostgreSQL</li>
-							<li>NodeJS/Express</li>
+							<li>NodeJS / Express</li>
 							<li>MongoDB</li>
 							<li>Vanilla JS</li>
 						</ul>
@@ -35,7 +36,7 @@ const LandingPage = () => {
 					<div className="skills right-skills">
 						<ul>
 							<li>HTML</li>
-							<li>CSS/SCSS/SASS</li>
+							<li>CSS / SCSS / SASS</li>
 							<li>Material-UI</li>
 							<li>Bootstrap</li>
 							<li>Unit Testing</li>
@@ -44,7 +45,27 @@ const LandingPage = () => {
 						</ul>
 					</div>
 				</div>
+				<h3 className="skills-section-head" >TOOLS</h3>
+				<div className="skills-section sec2">
+					<div className="skills left-skills">
+						<ul>
+							<li>Version Control – Git</li>
+							<li>CI / CD - Travis</li>
+							<li>Heroku</li>
+							<li>Babel / Webpack</li>
+						</ul>
+					</div>
+					<div className="skills right-skills">
+						<ul>
+							<li>Zoom / Slack</li>
+							<li>Pivotal Tracker / Trello</li>
+							<li>Figma</li>
+							<li>VScode</li>
+						</ul>
+					</div>
+				</div>
     </div>
+		<Footer />
 		</div>
 	);
 }

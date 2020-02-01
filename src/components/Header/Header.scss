@@ -1,9 +1,8 @@
 header {
   display: inline-block;
   width: 100%;
+  position: fixed;
 }
-
-/* Menu animation starts */
 
 #other-links {
   color: grey;
@@ -15,26 +14,9 @@ header {
   padding: 15px 20px;
   position: relative;
 }
-/* #other-links:after {    
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: grey;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-#other-links:hover:after { 
-  width: 100%; 
-  left: 0; 
-} */
 #other-links:hover {
   color: white;
 }
-
-/* Menu animation ends */
 
 .logo {
   font-size: 50px;
@@ -46,6 +28,7 @@ header {
 .other-links {
   float: left;
   font-size: large;
+  list-style-type: none;
 }
   
 .links {
