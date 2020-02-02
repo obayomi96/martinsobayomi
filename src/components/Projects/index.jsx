@@ -1,8 +1,8 @@
 import React from 'react';
 import './Projects.scss';
 
-const SocialWorker = () => {
-  const workerObect = [
+const Projects = () => {
+  const projectsArray = [
     {
       id: 0,
       name: "Benjamin Afolabi",
@@ -46,7 +46,7 @@ const SocialWorker = () => {
     },
   ];
 
-  const sWorkers = workerObect.map(s => {
+  const projs = projectsArray.map(s => {
     return (
       <div className="cards" key={s.id}>
         <div className="img-content">
@@ -65,10 +65,10 @@ const SocialWorker = () => {
     <>
       <h1 style={{width: "100%"}}>Call our social workers</h1>
       <div className="workers-cards">
-        {sWorkers}
+        {projs}
       </div>
     </>
   )
 }
 
-export default SocialWorker;
+export default Projects;
