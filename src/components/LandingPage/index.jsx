@@ -13,7 +13,8 @@ const LandingPage = () => {
 					<p className="about">
 						I'm a Fullstack Software Engineer and a technology enthusiast who is passionate about problem solving and adapts well to change.
 						I'm a diverse individual who loves to integrate and contribute meaningfully to the progress of any team I'm opportune to work with.
-						My objectives are to create meaningful and useful products, and be a valuable member among my stakeholders.
+						My objectives are to create meaningful and useful products, and be a valuable member among my stakeholders. <br/>
+						I enjoy algorithms, mentoring, gaming, writing articles, and meeting new people.
 					</p>
 					<div className="image">
 						<img src={imgSrc} className="img" alt="Martins Obayomi profile" />
