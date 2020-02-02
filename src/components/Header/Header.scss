@@ -13,6 +13,7 @@ header {
   display: inline-block;
   padding: 15px 20px;
   position: relative;
+  transition: 0.5s;
 }
 #other-links:hover {
   color: white;
@@ -32,6 +33,7 @@ header {
 }
   
 .links {
+  align-items: center;
   position: absolute;
   top: 5px;
   right: 5px;

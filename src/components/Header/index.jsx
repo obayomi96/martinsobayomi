@@ -9,23 +9,16 @@ const Header = () => {
 			<div className="header-div">
 					<Link className="active logo" to="/"><b style={{color: "grey"}}>Martins</b> <span style={{color: "violet"}}>Obayomi</span></Link>
 				<div className="links">
-					<h5 style={{color: '#ddd', fontSize: '18px'}}>
-						obayomimartins96@gmail.com
-					</h5>
-				  {/* <ul>
+					<ul>
 						<li className="other-links">
 							<Link id="other-links" to="/projects">
 								Projects
 							</Link>
 						</li>
-						<li className="other-links">
-							<Link id="other-links" to="/">About</Link>
-						</li>
-						<li className="other-links">
-							<Link id="other-links" to="/">Contact
-							</Link>
-						</li>
-					</ul> */}
+					</ul>
+					<h5 style={{color: 'grey', fontSize: '18px', paddingLeft: '30px'}}>
+						obayomimartins96@gmail.com
+					</h5>
 				</div>
       </div>
     </header>
