@@ -8,25 +8,25 @@ const Footer = () => {
     <footer className='footer-div'>
       <ul className='footer-ul'>
           <li className='footer-li'>
-            <Link className='footer-link' to="https://github.com/obayomi96">
+            <a className='footer-link' href="https://github.com/obayomi96">
               GitHub
-            </Link>
+            </a>
           </li>
           <li>
-            <Link className='footer-link' to="https://www.linkedin.com/in/martins-obayomi-998202162/">LinkedIn
-            </Link>
+            <a className='footer-link' href="https://www.linkedin.com/in/martins-obayomi-998202162/">LinkedIn
+            </a>
           </li>
           <li>
-            <Link className='footer-link' to="https://stackoverflow.com/users/9985506/martins">StackOverflow
-            </Link>
+            <a className='footer-link' href="https://stackoverflow.com/users/9985506/martins">StackOverflow
+            </a>
           </li>
           <li>
-            <Link className='footer-link' to="https://twitter.com/martinsobayomi"> Twitter
-            </Link>
+            <a className='footer-link' href="https://twitter.com/martinsobayomi"> Twitter
+            </a>
           </li>
           <li>
-            <Link className='footer-link' to="https://www.instagram.com/obayomimartins_/?hl=en">Instagram
-            </Link>
+            <a className='footer-link' href="https://www.instagram.com/obayomimartins_/?hl=en">Instagram
+            </a>
           </li>
         </ul>
     </footer>

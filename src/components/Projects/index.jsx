@@ -65,12 +65,12 @@ const Projects = () => {
           </div>
         </div>
           <div>
-            <Link id="other-links" to={proj.githubUrl}>
+            <a id="other-links" href={proj.githubUrl}>
               <h3>Github</h3>
-						</Link>
-            <Link id="other-links" to={proj.deployment}>
+						</a>
+            <a id="other-links" href={proj.deployment}>
               <h3>View site</h3>
-						</Link>
+						</a>
           </div>
       </div>
     );
