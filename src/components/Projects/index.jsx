@@ -59,7 +59,7 @@ const Projects = () => {
     return (
       <div className="cards" key={proj.id}>
         <div className="img-content">
-          <img className="worker-img" src={proj.imageUrl} alt="social worker url" />
+          <img className="worker-img" src={proj.imageUrl} alt="project url" />
           <div style={{display: "block", marginRight: "0", marginLeft: "50px"}}>
             <h2 style={{color: 'grey', fontWeight: "bolder", paddingTop: '20px'}}>{proj.name}</h2>
           </div>

@@ -1,9 +1,10 @@
 .cards {
-  border: 2px dotted grey;
   padding: 5px;
   height: inherit;
   background: #ddd;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow:
+   -2px -2px 6px 2px #FFF,
+   2px 2px 6px 2px #C4C4C4;
   border-radius: 20px;
 }
 
