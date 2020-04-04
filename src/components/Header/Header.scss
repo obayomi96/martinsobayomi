@@ -44,3 +44,16 @@ header {
   display: inline-flex;
   padding: 15px;
 }
+
+@media only screen and (max-width: 768px) {
+  header {
+    height: 150px;
+  }
+  .logo {
+    width: 100%;
+  }
+  .links {
+    width: 100%;
+    padding-top: 100px;
+  }
+}

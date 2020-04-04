@@ -24,8 +24,8 @@
 .img {
   border: 3px grey solid;
   border-radius: 50%;
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 300px;
   float: right;
   right: 0;
 }
@@ -66,4 +66,15 @@
 }
 .sec2 {
   margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .column {
+    flex-wrap: wrap;
+  }
+  .about {
+    width: 95%;
+    padding: 50px 0 20px 0;
+    margin: 0 auto;
+  }
 }

@@ -9,7 +9,7 @@ class App extends Component {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={LandingPage} />
-          <Route path="/projects" component={Projects} />
+          <Route exact path="/projects" component={Projects} />
         </Switch>
       </BrowserRouter>
     );

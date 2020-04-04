@@ -13,8 +13,8 @@ const LandingPage = () => {
 					<p className="about">
 						I'm a Fullstack Software Engineer and a technology enthusiast who is passionate about problem solving and adapts well to change.
 						I'm a diverse individual who loves to integrate and contribute meaningfully to the progress of any team I'm opportune to work with.
-						My objectives are to create meaningful and useful products, and be a valuable member among my stakeholders. <br/>
-						I enjoy algorithms, mentoring, gaming, writing articles, and meeting new people.
+						My objectives are to create meaningful and useful products, and be a valuable member of my stakeholders. <br/>
+						I enjoy algorithms, mentoring, writing, gaming, and meeting new people.
 					</p>
 					<div className="image">
 						<img src={imgSrc} className="img" alt="Martins Obayomi profile" />
@@ -24,25 +24,26 @@ const LandingPage = () => {
 				<div className="skills-section">
 					<div className="skills left-skills">
 						<ul>
-							<li>React / Redux / Redux-saga</li>
-							<li>Next</li>
-							<li>Vue / Vuex</li>
-							<li>Nuxt</li>
-							<li>PostgreSQL</li>
-							<li>NodeJS / Express</li>
-							<li>MongoDB</li>
-							<li>Vanilla JS</li>
+							<li>React/Redux/Redux-saga</li>
+							<li>Next.JS</li>
+							<li>Vue/Vuex</li>
+							<li>Nuxt.JS</li>
+							<li>PostgreSQL/Sequelize</li>
+							<li>NodeJS/Express</li>
+							<li>MongoDB/Mongoose/MongoJS</li>
+							<li>DevOps</li>
 						</ul>
 					</div>
 					<div className="skills right-skills">
 						<ul>
 							<li>HTML</li>
-							<li>CSS / SCSS / SASS</li>
+							<li>CSS/SCSS/SASS</li>
+							<li>JavaScript</li>
 							<li>Material-UI</li>
 							<li>Bootstrap</li>
-							<li>Unit Testing</li>
-							<li>Integration Testing</li>
-							<li>End-To-End Testing</li>
+							<li>Unit test</li>
+							<li>Integration test</li>
+							<li>e2e test</li>
 						</ul>
 					</div>
 				</div>
@@ -51,17 +52,21 @@ const LandingPage = () => {
 					<div className="skills left-skills">
 						<ul>
 							<li>Version Control – Git</li>
-							<li>CI / CD - Travis</li>
+							<li>CI/CD - Travis CI</li>
 							<li>Heroku</li>
-							<li>Babel / Webpack</li>
+							<li>Webpack</li>
+							<li>Mocha/Chai</li>
+							<li>Jest</li>
 						</ul>
 					</div>
 					<div className="skills right-skills">
 						<ul>
-							<li>Zoom / Slack</li>
-							<li>Pivotal Tracker / Trello</li>
+							<li>Zoom/Slack</li>
+							<li>Pivotal Tracker/Trello/Jira</li>
 							<li>Figma</li>
 							<li>VScode</li>
+							<li>Cypress/Selenium</li>
+							<li>Nightswatch</li>
 						</ul>
 					</div>
 				</div>

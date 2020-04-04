@@ -21,24 +21,30 @@
 }
 
 .worker-img {
-  border: 2px dotted grey;
-  border-radius: 50%;
+  border: 1px solid grey;
+  border-radius: 20%;
   width: 150px;
   height: 150px;
   margin-top: 10px;
   margin-left: 20px;
   align-content: center;
   align-items: center;
-  transition: 0.5s;
-}
-
-.worker-img:hover {
-  border-radius: 20%;
-  width: 170px;
 }
 
 .img-content {
   margin-bottom: 10px;
   border-spacing: border-box;
   display: inline-flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .cards {
+    width: 100%;
+  }
+
+  .workers-cards {
+    width: 90%;
+  grid-template-columns: repeat(1, 1fr);
+
+  }
 }
